@@ -1,0 +1,1 @@
+function movesizeandopen(a){self.moveTo(0,0);self.resizeTo(screen.width,screen.height);window.location.href=a}function exPnd(){$("a[href]").each(function(){if($(this).attr("href")!="#"){var a=$(this).attr("href");$(this).click(function(){movesizeandopen(a)});$(this).attr("href","#");$(this).removeAttr("target")}})};
